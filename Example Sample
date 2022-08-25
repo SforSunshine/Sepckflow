@@ -1,0 +1,30 @@
+Speckflow project name
+Speackflow frame work
+In Visual studio
+On Solution Exploer on the right hand side to selsct and create structure projects and projects
+You will also see Assession folder, Features folder, Hooks and Steps folder 
+Since is an already setp defintion
+
+To start give your project a name
+Give the feature a name
+Also rename step definition name -( When you create the project and name to structure it automatically write the framework code for you )
+Scenario: TO DO APP: Add items to the TODOApp-Firefox
+Given I navigate to Sophie App on the following envirnoment
+|Browser |BrowserVersion |OS  |
+|Firefox |84.0           | Window 10|
+And I select the first item
+And I select the second item
+And I enter the new value in the textbox
+When I click the Submit button
+Then I verify whether the item is addedd to the list
+To generate a step definintion --> rught clik on the step --> clikc on genreate step definition skeletion-speckflow--> cope and pat on visual studio page.
+On the page right clkck to add depedances--> go to b  rowse--> search for selenium-->
+Next step is to add the HOOK--> right clike--> Add--> New Item-->
+Click on the right menu to create a class--right click add-->click on class--> rename a public class
+Click on driver for the senario contect --> to add references-->
+Creste a constructor for the context
+Next create Web dirver intialisation for the browser firefox, chrome etc you want to launch
+Add firefox Geco drive
+Create hook intialization 
+Right clikc on the inbuild structure method on speckflow. Right click--> add-->New item--> select speck flow--> event binding of Speackflow Hook
+At the bottom you add the quit method.
